@@ -1,0 +1,257 @@
+<html>
+<head>
+	<title>My Book</title>
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+<body bgcolor="white">
+    <p>
+    	<center>
+    	<ul style="list-style-type: none;  padding: 0;">
+        <li style="display: inline;  margin-right: 10px"><a href="./home.html" 
+
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">HOME</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./about.html" 
+
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">ABOUT</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./contact.html" 
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">CONTACT</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./services.html" 
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">SERVICES</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./form.html" 
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">FORM</a></li>
+        
+        <li style="display: inline;  margin-right: 10px"><a href="./table.html" 
+            style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">TABLE</a></li>
+        
+        <li style="display: inline;  margin-right: 10px"><a href="./my book.html" 
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">MYBOOK</a></li>
+    </ul></center>
+
+	</p>
+	<h1>DATABASE AND JAVA WITH ONLINE MEDICAL APPOINTMENT</h1>
+	<ol><h2><u><li>DATABASE</li></u></h2>
+		<p>Database name used: <b>online_medical_appointment</b></p>
+		<ul type="square"><h3><u><i><li>Tables</li></i></u></h3>
+
+			<ol><li><b>Admin Table</b></li>
+
+			<p>This table will often serves as a central hub for managing various administrative tasks and maintaining data integrity and it will give a user: Firstname ,Lastname, id_number, phone, gender, DOB, Email, Password that they will use to login.
+            </p></br>
+
+			<li><b>Doctor Table</b></li>
+
+			<p>Doctors often use tables to keep essential medical supplies, equipment, and patient records handy during examinations and treatments. </p> </br>
+
+
+			<li><b>Patient Table</b></li>
+
+			<p>this  table stores all relevant information about each patient, including their Id, Name, gender, address, phonenumber, email etc.</p></br>
+
+			<li><b>Medical_clinic Table</b></li>
+
+			<p>It allows for efficient management of patient records including personal information, medical history, treatments, and appointments. This aids in providing personalized care and tracking patient progress over time.</p></br>
+
+            <li><b>insurance Table</b></li>
+
+			<p>This table contain all insurance information of the patient.</p></br>
+
+			 <li><b>Prescription Table</b></li>
+			 <p> Prescription tables in databases hold critical information about medications prescribed to patients and help in clinical decision-making, research, and healthcare administration.</p></br>
+
+			<li><b>  Appointment Table</b></li></ol>
+
+			<p>An appointment table helps in organizing schedules efficiently. It keeps track of all scheduled appointments, ensuring that there are no overlaps or conflicts and can store relevant information about clients, such as contact details and preferences. This enables effective communication before, during, and after appointments.  </p></br>
+
+			<li><b>  payment Table</b></li></ol>
+
+			<p>This table are used in in managing financial transactions, maintaining records, analyzing data, ensuring compliance, and providing quality customer service. </p></br>
+
+
+			              <h3><u><i><li>Attributes</li></i></u></h3>
+			       <ol type="a"><li><b>Attributes of Admin Table</b></li></br>
+    Here are the descriptions or purposes of the attributes/columns used in Admin table:</br>
+
+    <ol type="i"><li><p><b><i>fname, lname:</i></b> The columns which are represents first name and last name of user.</br></p></li> 
+
+    <li><p><b><i>phone:</i></b> The column which are represents telephone number of user.</br></p></li>
+
+    <li><p><b><i>gender:</i></b> The column which are represents or store gender of user like female and male.</br></p></li>
+
+    <li><p><b><i>martial_status:</i></b> The column which are represents  martial status of user like single,married,divorced,…..</br></p></li> 
+
+    <li><p><b><i>DoB:</i></b> The column which are represents Date of Birth of user.</br></p></li>
+
+   <li><p><b><i>Email:</i></b> The column which are represents Email of given user.</br></p></li>
+
+    <li><p><b><i>Password:</i></b> The column which are represents  password of the user.</br></p></li></ol>
+
+
+                    <li><b>Attributes of Doctor Table</b></li></br>
+
+    Here are the descriptions or purposes of the attributes/columns used in Doctor table:</br>
+
+
+<ol type="i"><li><p><b><i> Doctor_Id:</i></b> The column which are represents  id of  Doctor which is unique value called PRIMARY.  It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of  Doctortable.</br></p></li>
+
+<li><p><b><i> Doctor_Name:</i></b> The column which are represents  the name of the Doctor like kaneza poul.</p></br></li>
+
+<li><p><b><i>speciality</i></b> The column which are represents  the area of medical expertise.</br></p></li>
+
+<li><p><b><i>phone:</i></b> The columns which are represents  the phonenumber of the doctor.</br></p></li></ol>
+
+
+                    <li><b>Attributes of patient Table</b></li></br>
+
+                    Here are the descriptions or purposes of the attributes/columns used in patient  table:</br>
+
+
+
+<ol type="i"><li><p><b><i>patient _Id:</i></b> The column which are represents  id of patient  which is unique value called PRIMARY KEY. It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of patient table.</p></br></li>
+
+
+<li><p><b><i>patient _Name:</i></b> The column which are represents  the name of  patient  like Bora aisha.</p></br></li>
+
+<li><p><b><i>patient _Address:</i></b> The column which are represents  Location or address of patient   where a patient is  located.</p></br></li>
+
+
+<li><p><b><i>patient _Contact:</i></b> The column which are represents telephone number of patient .</p></br></li>
+
+<li><p><b><i>Gender:</i></b> The column which are represents gender of patient like female and male.</p> </br></li></ol>
+
+
+                    <li><b>Attributes of insurance</b></li></br>
+
+                    Here are the descriptions or purposes of the attributes/columns used in insurance:</br>
+
+<ol type="i"><li><p><b><i>insurance_Id:</i></b> The column which are represents  id of  insurance  which is unique value called PRIMARY KEY.  It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of insurance table.</p></br></li>
+
+<li><p><b><i>insurance_name:</i></b> The column which are represents  the name of insurance.</p></br></li></ol>
+
+
+                    <li><b>Attributes of medical_clinic Table</b></li></br>
+
+                    Here are the descriptions or purposes of the attributes/columns used in medical_clinic  table:</br>
+
+
+<ol type="i"><li><p><b><i>clinic_Id:</i></b> The column which are represents  id of  Customers  which is unique value called PRIMARY KEY. It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of medical_clinic   table.</p></br></li>
+
+
+
+
+<li><p><b><i>Clinic_Name:</i></b> The column which are represents  the name of  the clinic.</p></br></li>
+
+<li><p><b><i>address:</i></b> The column which are represents location/adress  of clinic.</p></br></li>
+
+<li><p><b><i>patient_id:</i></b> The column which are represents  id of patient which  is references to the medical_clinic table value called FOREIGN KEY.  It is a column of patient table  which has relationship between medical_clinic table.</p></br></li></ol> 
+
+
+
+                    <li><b>Attributes of appointment </b></li></ol></br>
+
+    Here are the descriptions or purposes of the attributes/columns used in appointment table:</br>
+
+
+<ol type="i"><li><p><b><i>appointment_Id:</i></b> The column which are represents  id of  appointment which is unique value called PRIMARY KEY. It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of appointment  table.</p></br></li>
+
+<li><p><b><i>doctor_Id:</i></b> The column which are represents  id of patient which  is references to the doctor  table value called FOREIGN KEY.  It is a column ofdoctor table  which has relationship between appointment  table.</p></br></li>
+
+<li><p><b><i>appointment_Date:</i></b> The column which are represents  the date of the appointment.</p></br></li>
+
+<li><p><b><i>reason:</i></b> The column which are represents  the  reason of the patient.</p></br></li>
+
+
+                    <li><b>Attributes of payment </b></li></ol></br>
+
+    Here are the descriptions or purposes of the attributes/columns used in payment table:</br>
+
+
+<ol type="i"><li><p><b><i> payment _Id:</i></b> The column which are represents  id of  payment   which is unique value called PRIMARY KEY. It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of payment   table.</p></br></li>
+
+<li><p><b><i>doctor_Id:</i></b> The column which are represents  id of patient which  is references to the doctor  table value called FOREIGN KEY.  It is a column ofdoctor table  which has relationship between  payment   table.</p></br></li>
+
+<li><p><b><i> payment_Date:</i></b> The column which are represents  the date of the  payment .</p></br></li>
+
+<li><p><b><i>amount:</i></b> The column which are represents  the amount of the payment .</p></br></li>
+
+<li><b>Attributes of prescription</b></li></ol></br>
+
+    Here are the descriptions or purposes of the attributes/columns used in prescription table:</br>
+
+
+<ol type="i"><li><p><b><i> prescription _Id:</i></b> The column which are represents  id of  prescription  which is unique value called PRIMARY KEY. It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of prescription  table.</p></br></li>
+
+<li><p><b><i>doctor_Id:</i></b> The column which are represents  id of patient which  is references to the doctor  table value called FOREIGN KEY.  It is a column ofdoctor table  which has relationship between  prescription  table.</p></br></li>
+
+<li><p><b><i> start_Date:</i></b> The column which are represents  the startdate of the  payment .</p></br></li>
+<li><p><b><i> end_Date:</i></b> The column which are represents  the enddate of the  payment .</p></br></li>
+<li><p><b><i>medicationname:</i></b> The column which are represents  the name  of the medication .</p></br></li>
+<li><p><b><i>dosage:</i></b> The column which are represents  the dosage  instructions for the medication .</p></br></li>
+<li><p><b><i>frequency:</i></b> The column which are represents  the frequency of taking the medication .</p></br></li>
+
+
+ </ul>
+		<h2><u><li>JAVA PROGRAMMING</li></u></h2>
+		
+
+
+		<ul type="square"><h3><u><i><li>Description</li></i></u></h3>
+
+			  <b>Introduction</b><br>
+ <p>In this chapter I will be describing how powerful generalpurpose programming language was used to create the analyzed system. Under this chapter I will undergo full detail of how everything will function together with database that have been describe above and how it cope with full analyzed system.</p><br>
+ 
+	<b>Tools used to develop this system in java programming</b><br>
+
+<ol type="a"><li><p><b>Eclipse IDE:</b> an integrated development environment used in computer programming. It contains a base workspace and an extensible plug-in system for customizing the environment. It is the second-most-popular IDE for Java development, and was the most popular. </p><br></li>
+
+<li><p><b>JAR stands for Java Archive:</b>  It's a file format based on the popular ZIP file format and is used for aggregating many files into one. Although JAR can be used as a general archiving tool, the primary motivation for its development was so that Java applets and their requisite components. </p><br></li></ol>
+
+<img src="connector.png" width=1000 height=100><br><br>
+
+
+
+
+
+<p><b>MySQL Connectors:</b> MySQL provides standards-based drivers for JDBC, ODBC, and .Net enabling developers to build database applications in their language.</p><br>
+
+
+
+			              <h3><u><i><li>Forms and Images</li></i></u></h3>
+
+<ol type="I"><li><b><h4>doctor Form</h4></b></br>
+<img src="doct.png" width=900 height=300><br><br><br><br><br></li>
+
+<li><b><h4>Patient Form</h4></b></br>
+<img src="pat.png" width=900 height=300><br><br><br><br><br></li>
+
+<li><b><h4>Medical_clinic Form</h4></b></br>
+<img src="med.png" width=900 height=300><br><br><br><br><br></li>
+
+<li><b><h4>appointment Form</h4></b></br>
+<img src="ap.png" width=900 height=300><br><br><br><br><br></li>
+
+<li><b><h4>prescription Form</h4></b></br>
+<img src="per.png" width=900 height=300><br><br><br><br><br></li>
+
+<li><b><h4>payment Form</h4></b></br>
+<img src="payment.png" width=900 height=300><br><br><br><br><br>
+
+<li><b><h4>insurancer Form</h4></b></br>
+<img src="in.png" width=900 height=300><br><br><br><br><br>
+</li></ol>
+
+</ul>
+		
+	</ol>
+	<marquee><u><i><h2 style="color: white;">Prepared By</i></u>:Uwiduhaye emima</h2></marquee>
+	</body>
+	</html>
